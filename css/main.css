@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+
+}
+body {
+    background-color: black;
+}
+
+.parent {
+    width: 60%;
+    background-color: white;
+    height: calc(100vh - 40px);
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent > div {
+    width: 32%;
+    height: 100%;
+    background-color: white;
+}
+.parent .first-box  {
+    border-radius: 10%;
+}
+
+.parent .first-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.parent .first-box .box-one {
+    width: 100%;
+    height: 58%;
+    display: flex;
+    flex-direction: column;
+}
+.parent .first-box .box-one .image {
+    width: 100%;
+    height: 50%;
+    background-image: url(../image/baby-cooking.jpg);
+    background-size: cover;
+}
+.parent .first-box .box-one .content {
+    width: calc(100% - 40px);
+    height: calc(52% - 40px);
+    padding: 20px;
+    background-color: #EDBF47;
+}
+
+.parent .first-box .box-two {
+    width: 100%;
+    height: 38%;
+    display: flex;
+    flex-direction: column;
+}
+.parent .first-box .box-one .content {
+    color: white;
+}
+.parent .first-box .box-one .content h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.parent .first-box .box-one .content p {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #FBF0D5;
+    line-height: 2;
+    font-weight: normal;
+}
+.parent .first-box .box-one .content a {
+    background-color: #E1B543;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 6px 10px;
+    width: fit-content;
+    text-transform: uppercase;
+}
+.parent .first-box .box-two .image {
+    width: 100%;
+    height: 80%;
+    background-image: url(../image/twokids.jpg);
+    background-size: cover;
+
+}
+.parent .first-box .box-two .content {
+    width: calc(100% - 40px);
+    height: calc(20% - 20px);
+    background-color: #6FC191;
+    padding: 10px 20px ;
+    color: #FEF8F6;
+}
+.parent .first-box .box-two .content h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.parent .second-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.parent .second-box .box-one {
+    width: 100%;
+    height: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EC774B;
+    text-align: center;
+    color: #FEF8F6;
+}
+
+.parent .second-box .box-one div {
+    font-size: 16px;
+    width: 70%;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    opacity: 75%;
+}
+
+.parent .second-box .box-one span {
+    color: #FEF8F6;
+    opacity: 50%;
+    font-size: 12px;
+}
+.parent .second-box .box-one span li {
+    padding-right: 10px;
+}
+.parent .second-box .box-two {
+    width: 100%;
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+}
+
+.parent .second-box .box-two .content h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: white;
+}
+.parent .second-box .box-two .content p {
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #FBF0D5;
+    line-height: 2;
+    font-weight: normal;
+}
+.parent .second-box .box-two .content a {
+    background-color: #D66666;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 6px 10px;
+    width: fit-content;
+    text-transform: uppercase;
+}
+.parent .second-box .box-two .image {
+    width: 100%;
+    height: 50%;
+    background-image: url(../image/piano.jpg);
+    background-size: cover;
+}
+.parent .second-box .box-two .image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.parent .second-box .box-two .content {
+    width: calc(100% - 40px);
+    height: calc(50% - 40px);
+    background-color: #E16C6C;
+    padding: 20px;
+}
+
+
+.parent .third-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.parent .third-box .box-one {
+    width: 100%;
+    height: 78%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EC774B;
+}
+.parent .third-box .box-one .image {
+    width: 100%;
+    height: 60%;
+    background-image: url(../image/two-girls-friends.jpg);
+    background-size: cover;
+}
+
+.parent .third-box .box-one .content {
+    width: calc(100% - 40px);
+    height: calc(40% - 40px);
+    background-color: #74CEE4;
+    padding: 20px;
+}
+
+.parent .third-box .box-one .content h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: white;
+}
+.parent .third-box .box-one .content p {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #FBF0D5;
+    line-height: 2;
+    font-weight: normal;
+}
+.parent .third-box .box-one .content a {
+    background-color: #6EC3D8;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 6px 10px;
+    width: fit-content;
+    text-transform: uppercase;
+}
+
+
+.parent .third-box .box-two {
+    width: 100%;
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    background-color: #C389CE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.parent .third-box .box-two p {
+    color: #FEF8F6;
+    opacity: 90%;
+}
+.parent .first-box .sign,
+.parent .second-box .sign, 
+.parent .third-box .sign
+{
+    position: relative;
+}
+.parent .sign::after {
+    content: "NEWS";
+    position: absolute;
+    background-color: #495052;
+    font-size: 12px;
+    color: #fef8f6d6;
+    padding: 5px;
+    top: 10px;
+    right: 10px;
+}
